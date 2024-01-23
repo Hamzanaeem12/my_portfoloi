@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(255, 145, 0);
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:100px 1fr 1fr 100px ;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    place-self: center;
+}
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-top: 10%;
+    place-self: center;
+
+}
+.item2>img{
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+    
+}
+
+.item3{
+    grid-column-start: 3;
+    grid-column-end:5 ;
+    color: aliceblue;
+    justify-self: start;
+    align-self: center;
+    padding-top: 10%;
+}
+
+h1{
+    color: brown;
+    font-family: sans-serif;
+}
+
+h2,h3{
+    font-family: sans-serif;
+}
+
+
+
+.item4{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    place-self: center;
+    border: 2px solid wheat;
+    border-radius: 12px;
+    padding: 25px 200px; 
+    margin: 20px;
+    background-color: whitesmoke;   
+}
+.item4>a{
+    text-decoration: none;
+    font-size: 25px ;
+    font-style: italic;
+    color: darkolivegreen;
+
+}
+
+.item5{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    place-self: center;
+    border: 2px solid wheat;
+    border-radius: 12px;
+    padding: 25px 200px;  
+    margin: 20px;
+    background-color: whitesmoke;  
+}
+
+.item5>a{
+    text-decoration: none;
+    font-size: 25px ;
+    font-style: italic;
+    color: darkolivegreen;
+}
+
+
+
+
+.item6{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end:4 ;
+    place-self: center;
+}
+
+.item6>a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 20px;
+}
+.item6>div>a{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+        border: 1px solid wheat;
+        border-radius: 20px;
+        padding: 5px;
+}
+.item6>div{
+    margin: 20px;
+    text-align: center;
+}
+a,div>a:hover{
+     color: brown;
+    font-family: sans-serif;
+    }
+
+.item4:hover{
+    background-color: aqua;
+}
+
+
+.item5:hover{
+    background-color: aqua;
+}
